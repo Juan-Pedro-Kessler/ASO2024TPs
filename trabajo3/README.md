@@ -6,5 +6,5 @@ b)no, comparamos y no son iguales. En el de sin hilos cambia la centésima y el 
 
 c)lo que paso fue que descomentamos la linea que modificaba el acumulador. Entonces comenzó a devolver valores diferentes de la variable acumulador y el tiempo de ejecución cambio.
 2-
-a)<a href="/codigo.c">codigo</a>
-b)<a href="/aso.png">imagen</a>
+a)<a href="codigo.c">codigo</a>
+b)<a href="aso.png">imagen</a>

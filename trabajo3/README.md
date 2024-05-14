@@ -5,3 +5,6 @@ el código con hilos fue menos predecible con su tiempo de ejecución, había ca
 b)no, comparamos y no son iguales. En el de sin hilos cambia la centésima y el de con hilos cambio la décima.
 
 c)lo que paso fue que descomentamos la linea que modificaba el acumulador. Entonces comenzó a devolver valores diferentes de la variable acumulador y el tiempo de ejecución cambio.
+2-
+a)<a href="trabajo3/codigo.c">codigo</a>
+b)<a href="trabajo3/aso.png">imagen</a>

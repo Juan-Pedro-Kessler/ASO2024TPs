@@ -4,7 +4,7 @@ el código con hilos fue menos predecible con su tiempo de ejecución, había ca
 
 b)no, comparamos y no son iguales. En el de sin hilos cambia la centésima y el de con hilos cambio la décima.
 
-c)lo que paso fue que descomentamos la linea que modificaba el acumulador. Entonces comenzó a devolver valores diferentes de la variable acumulador y el tiempo de ejecución cambio.
+c)o que ocurrió fue que descomentamos la línea que modificaba el acumulador, lo que causó un error debido al uso de un recurso compartido. Este problema se hizo más evidente con los ciclos for, lo que resultó en una ejecución del programa mas lenta aun.
 2-
 a)<a href="codigo.c">codigo</a>
 b)<a href="aso.png">imagen</a>

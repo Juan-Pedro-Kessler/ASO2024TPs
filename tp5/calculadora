@@ -1,0 +1,49 @@
+#!/bin/bash
+
+respuesta=""
+a=0
+b=0
+c=0
+
+echo "¿Qué operación desea hacer? (suma/resta/division/multiplicacion)"
+read respuesta
+
+if [ "$respuesta" = "suma" ]; then
+    echo "Ingrese el primer número:"
+    read a
+    echo "Ingrese el segundo número:"
+    read b
+    c=$((a + b))
+    echo "El resultado es: $c"
+
+elif [ "$respuesta" = "resta" ]; then
+    echo "Ingrese el primer número:"
+    read a
+    echo "Ingrese el segundo número:"
+    read b
+    c=$((a - b))
+    echo "El resultado es: $c"
+
+elif [ "$respuesta" = "multiplicacion" ]; then
+    echo "Ingrese el primer número:"
+    read a
+    echo "Ingrese el segundo número:"
+    read b
+    c=$((a * b))
+    echo "El resultado es: $c"
+
+elif [ "$respuesta" = "division" ]; then
+    echo "Ingrese el primer número:"
+    read a
+    echo "Ingrese el segundo número:"
+    read b
+    if [ $b -ne 0 ]; then
+        c=$((a / b))
+        echo "El resultado es: $c"
+    else
+        echo "Error: División por cero no permitida."
+    fi
+
+else
+    echo "Operación no reconocida."
+fi
